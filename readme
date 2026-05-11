@@ -6,3 +6,6 @@ contribute to de facto text detection. Therefore, chunk size was reduced to 700 
 average paragraph size of the text. Additionally, perplexity score (low/medium/hich) and predictability score (1-10) were
 requested for each chunk to obtain a more precise assessment of the text.Analysis must be done paragraph by paragraph,
 as sentence flow is one of the characteristics of Gemini generated text.
+
+Gemma 2 model was not sufficient at recognition of AI-generated text, therefore, the model was updated to Gemma 3 (4B),
+(gemma3:4b) and the quantization aware trained version fo the model (gemma3:4b-it-qat)
