@@ -1,0 +1,64 @@
+AI DETECTION REPORT
+Model used: gemma2:latest
+Total Chunks: 3
+
+--- CHUNK 1 ---
+TEXT: In conclusion, the evolution of VLS research reflects a shift from descriptive inventories (Ahmed, 1...
+ANALYSIS:
+Error communicating with Ollama: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+
+--------------------------------------------------
+
+--- CHUNK 2 ---
+TEXT:  (2011) tripartite model highlights the central, regulatory role of metacognition in the learning pr...
+ANALYSIS:
+Here's an analysis of the provided text for AI signatures:
+
+**1. PERPLEXITY ESTIMATE:** Medium 
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text exhibits some characteristics suggestive of AI generation, but it's not definitively robotic. Here's why:
+
+* **Formal Tone and Structure:** The language is academic and structured, typical of AI models trained on scholarly texts.  Phrases like "tripartite model highlights" and "strategic repertoire of the learner" indicate a tendency towards formal expression.
+* **Lack of Personal Voice/Anecdotes:** There's no personal perspective or anecdotal evidence, which is common in human-written text. 
+* **Predictable Sentence Flow:** The sentences follow a logical progression, but they lack the subtle variations and unexpected turns often found in human writing.
+
+* **Incomplete Thought:** The abrupt ending suggests the AI might have been interrupted or hasn't fully developed the thought. This is not uncommon in AI models that generate text sequentially.
+
+
+**Overall:** While the text demonstrates some AI-like qualities, it's not entirely robotic.  The medium perplexity and moderate predictability score suggest a level of fluency but with room for improvement in terms of natural expression and coherence.
+
+--------------------------------------------------
+
+--- CHUNK 3 ---
+TEXT: aviors manifest when the learner must "crack the code" of a new language through the orchestration o...
+ANALYSIS:
+Here's an analysis of the provided text for AI signatures:
+
+**1. PERPLEXITY ESTIMATE:** Medium 
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text demonstrates some characteristics suggestive of AI generation:
+
+* **Formal Diction:** The language is somewhat formal and academic, using terms like "manifest," "orchestration," and "learner." While humans can write this way, it's more common in AI-generated content aiming for a sophisticated tone.
+* **Abstract Concepts:** The text deals with abstract concepts like "cracking the code" of language and the interplay of sound, image, and text. This level of abstraction can be a hallmark of AI struggling to grasp nuanced human experience.
+* **Lack of Personal Voice:** There's no sense of personal perspective or opinion in the text. It reads more like a factual statement than an expression of thought.
+
+However, the text isn't entirely robotic:
+
+* **Grammatically Sound:** The grammar and syntax are correct, which is a baseline for many AI models.
+* **Cohesive Structure:** The sentences flow logically and convey a coherent idea. 
+
+**Overall:** The text exhibits some AI-like qualities but isn't definitively proof of generation. A human could have written it, particularly if they were aiming for a formal and somewhat impersonal style.  More context or examples would be needed to make a stronger judgment. 
+
+
+Let me know if you have any other text samples you'd like me to analyze!
+
+--------------------------------------------------
+

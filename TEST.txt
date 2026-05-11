@@ -1,0 +1,18 @@
+AI DETECTION REPORT
+Model used: gemma2:latest
+Total Chunks: 2
+
+--- CHUNK 1 ---
+TEXT: The evolution of VLS research reflects a transition from descriptive inventories to validated framew...
+ANALYSIS:
+Error communicating with Ollama: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+
+--------------------------------------------------
+
+--- CHUNK 2 ---
+TEXT: an examination of how strategic behaviors manifest during the complex orchestration of sound, imager...
+ANALYSIS:
+Error communicating with Ollama: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate
+
+--------------------------------------------------
+

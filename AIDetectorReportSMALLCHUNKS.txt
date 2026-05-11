@@ -1,0 +1,790 @@
+AI DETECTION REPORT
+Model used: gemma2:latest
+Total Chunks: 331
+
+--- CHUNK 1 ---
+TEXT: 2.1. First Exposure (FE) to a New Language      Previous Second Language Acquisition (SLA) research ...
+ANALYSIS:
+Here's an analysis of the provided text for AI signatures:
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text exhibits characteristics that suggest both human and AI authorship. 
+
+* **Strengths Suggesting Human Authorship:**
+    * **Niche Subject Matter:** The focus on "First Exposure (FE) to a New Language" and specific terminology like "ab initio learners" and "Target Language (TL)" indicates specialized knowledge in second language acquisition research. This level of domain-specific vocabulary is often harder for AI models to generate convincingly.
+    * **Coherent Structure:** The paragraph flows logically, introducing the
+
+--------------------------------------------------
+
+--- CHUNK 2 ---
+TEXT: knowledge the novice learners bring to the table at initial stages of language processing, b) the im...
+ANALYSIS:
+## AI Signature Analysis Report 
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**  The text demonstrates some characteristics of AI-generated content, but it's not overly robotic. 
+
+* **Strengths:** The writing is grammatically correct and follows a logical structure. It uses academic language appropriately and cites a source. This suggests the model has been trained on a dataset of scholarly texts.
+* **Weaknesses:**  The phrasing feels somewhat repetitive and lacks natural flow in places. For example, the repeated use of "a concern with" and "which are" creates a slightly mechanical tone. The abrupt ending also suggests the model may have stopped
+
+--------------------------------------------------
+
+--- CHUNK 3 ---
+TEXT: sses and mechanisms; a focus on how those processes are related to the input; a total control of the...
+ANALYSIS:
+## AI Signature Analysis Report
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text exhibits some characteristics suggestive of AI generation, but not overwhelmingly so. 
+
+* **Medium Perplexity:** The language is grammatically correct and uses academic vocabulary, indicating a degree of fluency. However, the sentence structure can be somewhat repetitive and lacks the natural flow often found in human writing.
+* **Moderate Predictability:**  The text relies heavily on citing sources and summarizing research findings, which is common practice in academic writing. This reliance on external information and structured presentation contributes to a slightly predictable tone. 
+
+**Overall:** While the text demonstrates
+
+--------------------------------------------------
+
+--- CHUNK 4 ---
+TEXT: f acquisition can lead to an incomplete picture when theorising about language processing overall. H...
+ANALYSIS:
+## AI Signature Analysis Report
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text exhibits characteristics of both human and AI writing. 
+
+* **Strengths suggesting human authorship:** The passage demonstrates a nuanced understanding of linguistic concepts like "acquisition" and "ultimate attainment." It also effectively integrates quotes from academic sources and cites them correctly. The sentence structure is complex and varied, showcasing a level of sophistication often found in human-written academic prose.
+* **Weaknesses suggesting AI influence:**  The text lacks a clear narrative flow or personal voice. It reads more like a summary of research findings than a piece with a distinct argument or perspective. The
+
+--------------------------------------------------
+
+--- CHUNK 5 ---
+TEXT: g questions arise: how can information on language learning at FE contribute to a better understandi...
+ANALYSIS:
+Here's an analysis of the provided text for AI signatures:
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text exhibits some characteristics suggestive of AI generation, but it's not overwhelmingly robotic. Here's why:
+
+* **Structured and Formal:** The language is academic and structured, typical of AI trained on scholarly texts.  
+* **Citing Sources:** The inclusion of citations (Schwartz & Sprouse, 1996; Hawkins, 20...) suggests an attempt to mimic academic writing conventions.
+* **Topic Focus:** The focus on linguistic theories like Universal Grammar and First Language influence is a
+
+--------------------------------------------------
+
+--- CHUNK 6 ---
+TEXT: 07). Conversely, the Full Transfer Hypothesis (Schwartz & Sprouse, 1996) posits that the starting po...
+ANALYSIS:
+## AI Signature Analysis Report
+
+**1. PERPLEXITY ESTIMATE:** Low
+
+**2. PREDICTABILITY SCORE:** 6
+
+**3. ANALYSIS:**  The text exhibits characteristics of AI-generated content, but not to a highly noticeable degree. 
+
+* **Low Perplexity:** The text demonstrates a clear understanding of grammatical structures and academic writing style. It uses complex sentence constructions and specialized vocabulary related to linguistics (e.g., "interlanguage," "UG," "functional projections"). This suggests the AI model has been trained on a substantial dataset of similar texts.
+* **Moderate Predictability:** While the information presented is accurate and coherent, there's a slight lack of originality or unexpected turns in the argumentation.
+
+--------------------------------------------------
+
+--- CHUNK 7 ---
+TEXT: ping only as the learner acquires new lexical items. However, a later meticulous analysis of the stu...
+ANALYSIS:
+Here's an analysis of the provided text for AI signatures:
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text demonstrates some characteristics suggestive of AI generation:
+
+* **Formal Tone and Structure:** The language is academic and structured, using complex sentence constructions and technical vocabulary common in linguistic research. This level of formality can be a hallmark of AI-generated text trained on scholarly datasets.
+* **Repetitive Sentence Patterns:** There's a slight tendency towards repetitive sentence structures, particularly the use of "In this way" followed by a statement about casting doubt. While not definitive, this can indicate pattern-based generation.
+*
+
+--------------------------------------------------
+
+--- CHUNK 8 ---
+TEXT: tures (e.g., English, and German negation, Eubank, 1993) and, more importantly, stressed the crucial...
+ANALYSIS:
+## AI Signature Analysis Report 
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6
+
+**3. ANALYSIS:**  The text exhibits characteristics of both human and AI writing. 
+
+* **Human-like:** The text demonstrates a clear understanding of academic discourse, using specialized terminology ("interlanguage features," "Autonomous Induction Theory") and referencing specific studies (Eubank, 1993; Klein & Perdue, 1997; Carroll, 2001).  The writing also flows logically, presenting a coherent argument about the evolution of theories in Second Language Acquisition.
+* **AI-like:** The language is somewhat formal and lacks personal voice or illustrative
+
+--------------------------------------------------
+
+--- CHUNK 9 ---
+TEXT:  to account for this critical window when the learner first encounters the TL and perceives it as li...
+ANALYSIS:
+Here's an analysis of the provided text for AI signatures:
+
+**1. PERPLEXITY ESTIMATE:** Medium 
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text exhibits some characteristics suggestive of AI generation, but it's not overwhelmingly robotic. Here's why:
+
+* **Academic Tone and Structure:** The language is formal and structured like an academic passage, using terms like "SLA" (Second Language Acquisition) and referencing studies with citations. This suggests potential AI training on academic datasets.
+* **Sentence Complexity:** The sentences are relatively complex, demonstrating some capacity for grammatical construction. However, there's a slight lack of natural flow and variation in sentence length.
+
+--------------------------------------------------
+
+--- CHUNK 10 ---
+TEXT: tors, with relatively few studies accounting for individual learner differences. This broad range of...
+ANALYSIS:
+## AI Signature Analysis Report 
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text demonstrates some characteristics suggestive of AI generation, but not to a high degree. 
+
+* **Strengths:** The language is grammatically correct and uses academic vocabulary appropriately. The structure is logical, with clear topic sentences and transitions between paragraphs. This suggests the use of a language model trained on academic texts.
+* **Weaknesses:**  The writing lacks a certain natural flow and expressiveness. Some phrases feel slightly repetitive or formulaic ("This broad range of designs complicates...," "By grouping these studies according to..."). The overall tone is somewhat dry
+
+--------------------------------------------------
+
+--- CHUNK 11 ---
+TEXT: in FE Several definitions of input are complementary in SLA. Chaudron (1985) defines input as “raw d...
+ANALYSIS:
+## AI Signature Analysis Report
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text exhibits characteristics suggestive of AI generation, but not with a high degree of certainty. 
+
+* **Structure and Flow:** The passage demonstrates a clear structure, outlining definitions of "input" in SLA and then transitioning to theoretical frameworks. This logical progression is typical of AI-generated text aiming for coherence.
+* **Vocabulary and Tone:** The language used is academic and appropriate for the topic. However, there's a lack of nuanced phrasing or personal perspective that might be expected from a human author. 
+* **Citations:** The inclusion of citations and
+
+--------------------------------------------------
+
+--- CHUNK 12 ---
+TEXT: e L2 was considered to be the ‘final’ state of the L1, which implies that L2 input would be consider...
+ANALYSIS:
+## AI Signature Analysis Report
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:** 
+
+The text demonstrates characteristics of both human and AI writing. 
+
+* **Human-like elements:** The text discusses complex linguistic concepts within the field of Second Language Acquisition (SLA), referencing specific researchers and their works. This level of academic discourse and nuanced argumentation suggests human authorship.
+* **AI-like elements:**  The writing style is somewhat formal and lacks personal voice or anecdotes, which are common in human-written academic texts. The sentence structure is relatively straightforward and predictable. Additionally, the text abruptly ends mid-sentence, which could indicate a limitation
+
+--------------------------------------------------
+
+--- CHUNK 13 ---
+TEXT: ne of the most under-researched and under-theorised aspects of L2 acquisition”, while Flege’s (2009)...
+ANALYSIS:
+## AI Signature Analysis Report
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text exhibits some characteristics suggestive of AI generation, but not with a high degree of certainty. 
+
+* **Structure and Flow:** The text presents information in a structured manner, outlining a research gap and introducing a table summarizing studies. This suggests a level of planning and organization typical of AI models trained on academic writing.
+* **Sentence Structure:**  The sentences are grammatically correct but lack the natural flow and complexity often found in human-written texts. 
+* **Vocabulary Choice:** The vocabulary is appropriate for the topic (L2 acquisition, FE studies
+
+--------------------------------------------------
+
+--- CHUNK 14 ---
+TEXT: lish Dutch L2 German	Reading  Listening 	 Comprehension	Previous linguistic knowledge  Yang & Givón ...
+ANALYSIS:
+## AI Signature Analysis Report
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text presents a structured list of research studies, each with specific details like language pairs, learning environment, focus area, and input factors. While the information is presented in a clear and organized manner, there are some elements that suggest potential AI involvement:
+
+* **Repetitive Structure:** The consistent format for each study entry (language pair, learning environment, focus area, input factors) indicates a possible template-based generation.
+* **Lack of Fluidity:** The text lacks the natural flow and stylistic nuances often found in human-written content. 
+*
+
+--------------------------------------------------
+
+--- CHUNK 15 ---
+TEXT: eo & audio)	Speech segmentation Vocabulary 	Input factors Han & Peverly (2007)	Various-Norwegian	Rea...
+ANALYSIS:
+## AI Signature Analysis Report
+
+**TEXT:**  (Provided text appears to be a table excerpt)
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 4/10
+
+**3. ANALYSIS:**
+
+The text presents a structured format resembling a table, likely summarizing research studies. While the content is factual and organized, there are no clear signs of repetitive patterns or overly simplistic language often associated with AI-generated text. The use of specific terminology ("Speech segmentation," "Audiovisual," "Comprehension") suggests human curation. 
+
+However, the lack of context surrounding the table's purpose and the abrupt ending raise some questions about its completeness. This could indicate a partial output from an AI
+
+--------------------------------------------------
+
+--- CHUNK 16 ---
+TEXT: segmentation Vocabulary	Input factors Ellis & Sagarra (2010)	English-Spanish English-Latin	Classroom...
+ANALYSIS:
+## AI Signature Analysis Report 
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**  The text presents information in a structured, tabular format, which is characteristic of AI-generated content aiming for clarity and organization. However, the language used is relatively straightforward and lacks the overly formal or repetitive patterns often seen in AI-generated text. The inclusion of specific references (e.g., Ellis & Sagarra (2010)) suggests some level of research grounding, further reducing the predictability score. 
+
+**Overall:** While the text exhibits some hallmarks of AI generation, the moderate perplexity and relatively human-like language suggest a degree of
+
+--------------------------------------------------
+
+--- CHUNK 17 ---
+TEXT: ve and deductive Shoemaker & Rast (2013)	French-Polish	Classroom	Vocabulary	Input factors  Dimroth e...
+ANALYSIS:
+## AI Signature Analysis Report
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text presents a structured list of research studies, likely from the field of Second Language Acquisition (SLA).  While the information is factual and organized, there are some elements that suggest potential AI involvement:
+
+* **Repetitive Structure:** The list follows a consistent format (Author(s), Year, Languages, Setting, Task/Focus, Input Factors) which could indicate template-based generation.
+* **Lack of Nuance:** The descriptions are concise and lack the depth and analytical perspective typically found in human-written summaries of research. 
+* **Ab
+
+--------------------------------------------------
+
+--- CHUNK 18 ---
+TEXT: nsion 	Input factors  Sequential and simultaneous learning Park (2014)	English-Korean Japanese-Korea...
+ANALYSIS:
+## AI Signature Analysis Report 
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**  The text presents a structured list of research studies, each with specific details about language pairs, learning modalities, focus areas, and relevant factors. While the information is factual and organized, there's a lack of nuanced language or creative expression that would typically signal human authorship. 
+
+Here's why I rate it as medium perplexity and 6/10 predictability:
+
+* **Structure:** The consistent format for each study entry suggests a template or algorithm used for generation.
+* **Specificity:**  The details provided (e.g., "Audio
+
+--------------------------------------------------
+
+--- CHUNK 19 ---
+TEXT: nces: frequency, relevance Input factors: LLAMA B, LLAMA D Hofweber et al. (2022, 2023)	English-Swed...
+ANALYSIS:
+## AI Signature Analysis Report
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text exhibits characteristics suggestive of AI generation, but not with a high degree of certainty. 
+
+* **Structure:** The text presents information in a structured manner, listing research studies with their details. This suggests a pattern-based approach common in AI text generation.
+* **Vocabulary:** The vocabulary used is academic and specialized, which could be indicative of AI training on large datasets of scholarly texts.
+* **Predictability:** While the information presented is factual and relevant to the topic, there's a certain predictability in the way it's organized and ph
+
+--------------------------------------------------
+
+--- CHUNK 20 ---
+TEXT: ached to the form. Klein's ‘problem of analysis’ tenets (1986) (e. g. Zwitserlood, 2000; Rast, 2008;...
+ANALYSIS:
+## AI Signature Analysis Report 
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text exhibits some characteristics suggestive of AI generation:
+
+* **Repetitive Sentence Structure:** The use of "- The..." at the beginning of each bullet point creates a predictable and somewhat robotic pattern.
+* **Citations without Context:**  While citations are present, they lack immediate context or explanation. This suggests the AI might have pulled information from sources without fully understanding its meaning. 
+* **Abrupt Ending:** The sentence "and, ev" is incomplete, indicating a potential halting point in the AI's generation process.
+
+However, the text also
+
+--------------------------------------------------
+
+--- CHUNK 21 ---
+TEXT: entually, generalise them to formulate a ‘rule’ (Gullberg et al.,2010).  Conversely, another stage o...
+ANALYSIS:
+Here's an analysis of the provided text for AI signatures:
+
+**1. PERPLEXITY ESTIMATE:** Medium 
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text exhibits some characteristics suggestive of AI generation, but it's not definitively robotic. Here's why:
+
+* **Structured Format:** The presentation of information with numbered principles and sub-points is typical of how AI models might structure text based on learned patterns.
+* **Academic Tone:** The language used is formal and academic, aligning with the style often employed in research summaries or textbook excerpts. 
+* **Repetitive Phrasing:**  Phrases like "Learners process input for meaning" and variations
+
+--------------------------------------------------
+
+--- CHUNK 22 ---
+TEXT: e for Non-redundancy Principle: Learners are more likely to process non-redundant meaningful forms b...
+ANALYSIS:
+## AI Signature Analysis Report 
+
+**TEXT:**  Excerpt about language acquisition principles.
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text exhibits characteristics suggestive of AI generation, but not with overwhelming certainty. Here's why:
+
+* **Structure:** The numbered list format and clear, concise statements are typical of AI-generated content aiming for structured information delivery.
+* **Vocabulary:**  The vocabulary is relatively formal and academic, which could be indicative of AI training on large text datasets containing scholarly material. 
+* **Predictability:** While the content is informative, there's a certain predictability in the phrasing and structure of
+
+--------------------------------------------------
+
+--- CHUNK 23 ---
+TEXT: ition. 2)	Principle 2. The First Noun Principle: Learners tend to process the first noun or pronoun ...
+ANALYSIS:
+## AI Signature Analysis Report 
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text exhibits some characteristics suggestive of AI generation, but not with a high degree of certainty. 
+
+* **Structure:** The text presents information in a structured manner, listing principles and sub-points, which is common in AI-generated content aiming for clarity and organization.
+* **Repetition:**  The phrase "Learners may rely..." appears repeatedly, indicating a potential reliance on formulaic language generation.
+* **Lack of Fluidity:** The writing lacks the natural flow and stylistic nuances often found in human-written text. 
+
+However,
+
+--------------------------------------------------
+
+--- CHUNK 24 ---
+TEXT: e on research on ab initio learners. For instance, Han and Peverly (2007) used a beginning level tex...
+ANALYSIS:
+## AI Signature Analysis Report 
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:** 
+
+The text exhibits some characteristics suggestive of AI generation, but not to a highly concerning degree. 
+
+* **Structure and Flow:** The passage demonstrates a clear structure, introducing a topic (ab initio learners), providing an example study, and summarizing the findings. This indicates some level of planning and logical progression typical of AI models trained on structured text.
+* **Vocabulary and Syntax:** The language used is relatively formal and academic, employing specialized terms like "primacy of meaning principle" and "bottom-up strategy." While this doesn't necessarily point
+
+--------------------------------------------------
+
+--- CHUNK 25 ---
+TEXT: k the code’ (Han & Peverly, 2007, p. 30). Similar results were demonstrated in a Han and Sun’s (2014...
+ANALYSIS:
+## AI Signature Analysis Report
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text exhibits some characteristics suggestive of AI generation, but not with a high degree of certainty. 
+
+* **Repetitive Sentence Structure:** The text relies heavily on similar sentence structures, particularly starting with "Thus" and "Once again," which can be a hallmark of AI-generated text struggling with varied expression.
+* **Citations without Context:**  The text mentions several studies (Han & Peverly, 2007; Han & Sun, 2014; Park) but lacks sufficient context or explanation of their findings. This suggests
+
+--------------------------------------------------
+
+--- CHUNK 26 ---
+TEXT: & Han (2008): both Japanese and English native speakers exposed to a text in Korean (typologically s...
+ANALYSIS:
+Here's an analysis of the provided text for AI signatures:
+
+**1. PERPLEXITY ESTIMATE:** Medium 
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text exhibits some characteristics suggestive of AI generation, but it's not overwhelmingly robotic. Here's why:
+
+* **Sentence Structure:** The sentences are grammatically correct and follow a reasonable structure. However, they lack the natural flow and variation often found in human writing. 
+* **Vocabulary:** The vocabulary is academic and specific to linguistics, which suggests potential AI training on scholarly texts.  
+* **Citing Sources:** The inclusion of a citation ("& Han (2008)") is a
+
+--------------------------------------------------
+
+--- CHUNK 27 ---
+TEXT: y initial stages. 2.1.1.1. Studies with artificial input  As total control over authentic input may ...
+ANALYSIS:
+## AI Signature Analysis Report
+
+**1. PERPLEXITY ESTIMATE:** Medium 
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text exhibits characteristics suggestive of AI generation, but not with a high degree of certainty. 
+
+* **Structure:** The text follows a structured format typical of academic writing, with headings and subheadings. This suggests some level of adherence to predefined templates or structures that AI models might learn.
+* **Vocabulary:** The vocabulary is relatively advanced and specific to the field of linguistics (e.g., "FE studies," "SLA"). While this doesn't definitively point to AI, it indicates a certain level of linguistic sophistication.
+* **Predictability:**
+
+--------------------------------------------------
+
+--- CHUNK 28 ---
+TEXT: tificial language learning and in structured sequence processing are shared with those of natural la...
+ANALYSIS:
+Here's an analysis of the provided text for AI signatures:
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text exhibits some characteristics suggestive of AI generation, but it's not overwhelmingly robotic. Here's why:
+
+* **Structure and Flow:** The passage demonstrates a reasonable flow of ideas, transitioning between concepts like artificial language learning and psycholinguistic studies. This suggests some level of understanding of textual coherence.
+* **Vocabulary and Syntax:** The vocabulary is academic and appropriate for the topic.  The syntax is generally correct, though there might be minor awkward phrasing in places. 
+* **Lack of Originality
+
+--------------------------------------------------
+
+--- CHUNK 29 ---
+TEXT: studies using artificial languages were published in 1997. The first one by DeKeyser (1997) used ‘Au...
+ANALYSIS:
+## AI Signature Analysis Report
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text demonstrates characteristics of both human and AI writing. 
+
+* **Strengths suggesting human authorship:**
+    *  The text presents a specific research study with details about methodology, participants, and findings. This level of detail and factual accuracy is typical of academic writing.
+    * The language used is relatively formal and precise, appropriate for an academic context.
+    * There's a clear narrative flow, explaining the study's purpose, methods, and results in a logical sequence.
+
+* **Weaknesses suggesting potential AI involvement:**
+    *  The
+
+--------------------------------------------------
+
+--- CHUNK 30 ---
+TEXT:  The second study from 1997 by De Graaff used an artificial eXperanto language to investigate the im...
+ANALYSIS:
+Here's an analysis of the provided text for AI signatures:
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text demonstrates some characteristics suggestive of AI generation, but it's not entirely robotic. Here's why:
+
+* **Structured and Factual:** The text presents information in a clear, structured manner, typical of AI's ability to process and synthesize data. It cites studies, researchers, and specific details about methodologies and results.
+* **Academic Tone:** The language used is formal and academic, aligning with the style often employed by AI when generating text in scientific or research contexts.
+* **Predictable Sentence
+
+--------------------------------------------------
+
+--- CHUNK 31 ---
+TEXT: ested in a variety of tasks, including word recognition, word semantic priming measure and word tran...
+ANALYSIS:
+## AI Signature Analysis Report
+
+**1. PERPLEXITY ESTIMATE:** Medium 
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text exhibits some characteristics suggestive of AI generation, but not to a high degree. 
+
+* **Repetitive Sentence Structure:** The initial sentence is quite long and complex, typical of AI struggling to generate natural flow.
+* **Jargon & Academic Tone:**  Phrases like "word semantic priming measure" and "SLA research in laboratory conditions" suggest an attempt to mimic academic writing style, which AI often leans towards.
+* **Abrupt Ending:** The text cuts off mid-sentence, hinting at potential issues with text generation stopping points.
+
+--------------------------------------------------
+
+--- CHUNK 32 ---
+TEXT:  was a simplified, miniature, artificial language” (p. 191). Consequently, although artificial langu...
+ANALYSIS:
+## AI Signature Analysis Report
+
+**1. PERPLEXITY ESTIMATE:** Medium 
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text exhibits characteristics of both human and AI writing. 
+
+* **Medium Perplexity:** The language is grammatically correct and uses academic vocabulary, suggesting some level of understanding of linguistic structures. However, the sentence structure is relatively simple and lacks the nuanced complexity often found in human-written academic prose.
+* **Moderate Predictability:**  The text follows a logical flow, presenting arguments and counter-arguments related to the use of artificial languages in Foreign Language (FL) studies. This structured approach aligns with how AI models are trained to generate coherent text
+
+--------------------------------------------------
+
+--- CHUNK 33 ---
+TEXT: ] taken together should allow us to make comparisons and come to conclusion about what learners do w...
+ANALYSIS:
+## AI Signature Analysis Report
+
+**1. PERPLEXITY ESTIMATE:** Medium 
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text exhibits some characteristics suggestive of AI generation, but not to a high degree. 
+
+* **Structure and Flow:** The writing demonstrates a clear structure with topic sentences and supporting paragraphs. This suggests an understanding of logical flow and organization, which are often hallmarks of AI-generated text.
+* **Vocabulary and Syntax:** The vocabulary is academic and appropriate for the subject matter (language acquisition). The syntax is generally correct, though there are some minor grammatical inconsistencies that might be indicative of AI's struggle with nuanced language use. 
+* **Lack
+
+--------------------------------------------------
+
+--- CHUNK 34 ---
+TEXT: it vs. explicit learning), this type of setting gives the researchers some control over the input, a...
+ANALYSIS:
+Here's an analysis of the provided text:
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text demonstrates characteristics of both human and AI writing. 
+
+* **Human-like elements:** The passage discusses a specific research topic (Foreign Language Acquisition) and uses academic language effectively. It cites a study by Lalleman (1999) and explains the purpose of the experiment. This level of detail and contextual understanding suggests human authorship.
+* **AI-like elements:**  The writing style is somewhat formulaic and lacks the natural flow and stylistic nuances often found in human-written academic prose. The sentences are structured
+
+--------------------------------------------------
+
+--- CHUNK 35 ---
+TEXT:  despite being very frequent in speech. The results revealed that, independently of the participants...
+ANALYSIS:
+## AI Signature Analysis Report
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text exhibits characteristics of both human and AI writing. 
+
+* **Strengths suggesting human authorship:** The text demonstrates a nuanced understanding of linguistic concepts like "Full Transfer theory" and "finite verb placement." It also employs academic language and structure, citing specific studies and researchers.
+* **Weaknesses suggesting potential AI involvement:**  The writing style lacks a distinct voice or personal perspective. The sentences are grammatically correct but somewhat formulaic and lack the natural flow often found in human-written text. 
+
+**Overall:** While the text demonstrates knowledge of linguistic concepts and
+
+--------------------------------------------------
+
+--- CHUNK 36 ---
+TEXT:  prior knowledge of German as L2. Results revealed that the knowledge of German assisted the acquisi...
+ANALYSIS:
+Here's an analysis of the provided text for AI signatures:
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text exhibits some characteristics suggestive of AI generation, but it's not entirely robotic. Here's why:
+
+* **Structure and Flow:** The text presents information in a structured manner, outlining a research study and its findings. This suggests some level of planning and organization, which are common traits in AI-generated content.
+* **Vocabulary and Syntax:** The language used is relatively formal and academic, employing technical terms like "L2," "TL," and "pseudowords."  The syntax is generally correct
+
+--------------------------------------------------
+
+--- CHUNK 37 ---
+TEXT: vent-related potentials (ERPs). Results showed that learning took place after as little as 14 hours ...
+ANALYSIS:
+## AI Signature Analysis Report
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text exhibits characteristics of both human and AI writing. 
+
+* **Medium Perplexity:** The language is relatively formal and uses technical terminology ("vent-related potentials," "ERPs," "lexicality judgments"), suggesting a level of complexity that AI models can handle. However, the phrasing isn't overly simplistic or repetitive, indicating some degree of nuanced expression.
+* **Moderate Predictability:** The text follows a clear structure, presenting research findings and conclusions in a logical manner. This structure is common in scientific writing and aligns with how AI models are
+
+--------------------------------------------------
+
+--- CHUNK 38 ---
+TEXT: ntribution to FE research in classroom settings is found in the VILLA (Varieties of Initial Learners...
+ANALYSIS:
+## AI Signature Analysis Report 
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text exhibits characteristics suggestive of AI generation, but not with a high degree of certainty.  
+
+* **Perplexity:** The sentence structure and vocabulary are relatively complex, indicating some level of linguistic understanding. However, there are minor grammatical inconsistencies ("taking into account participants' individual differences (i.e., age, L1, etc.) an") which suggest the AI might have struggled with certain nuances. 
+* **Predictability:** The text follows a clear structure, outlining a research project with its objectives and methodology. This structured approach is common in
+
+--------------------------------------------------
+
+--- CHUNK 39 ---
+TEXT: d the amount of metalinguistic information provided during the course. Additionally, the role of inp...
+ANALYSIS:
+Here's an analysis of the provided text:
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6
+
+**3. ANALYSIS:**
+
+The text exhibits characteristics typical of AI-generated content while not being overly robotic. Here's why:
+
+* **Structure and Vocabulary:** The language is formal and academic, employing precise vocabulary ("metalinguistic information," "acquisition," "processing mechanisms") common in research papers. This structure suggests an attempt to mimic scholarly writing.
+* **Predictability:**  The sentences follow a predictable pattern – subject-verb-object, with clear topic progression. While not entirely formulaic, there's a lack of the unexpected turns or stylistic flourishes
+
+--------------------------------------------------
+
+--- CHUNK 40 ---
+TEXT: VILLA project explored a wide range of individual differences as a possible factor affecting initial...
+ANALYSIS:
+## AI Signature Analysis Report
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text exhibits some characteristics suggestive of AI generation, but not to a high degree. 
+
+* **Predictability:** The language is grammatically correct and follows a structured format typical of academic writing. However, the sentence structure is somewhat repetitive and lacks the natural flow and variation found in human-written text.
+* **Vocabulary:** The vocabulary used is appropriate for the topic and demonstrates a good understanding of technical terms related to linguistics and language acquisition. 
+
+* **Lack of Originality:** The passage presents a summary of research without offering any original insights or analysis
+
+--------------------------------------------------
+
+--- CHUNK 41 ---
+TEXT: word length (measured in number of syllables), word stress, phonemic distance from the L1 and word t...
+ANALYSIS:
+Here's an analysis of the provided text for AI signatures:
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**
+
+The text exhibits characteristics that suggest both human and AI authorship. 
+
+* **Strengths suggesting human writing:**
+    *  **Specificity:** The text delves into specific linguistic features (word length, stress, phonemic distance) and experimental details (instruction time, communicative approach). This level of detail is often characteristic of human researchers documenting their work.
+    * **Sentence Structure:** While somewhat technical, the sentences generally follow a natural flow and structure. 
+
+* **Weaknesses suggesting potential AI influence:**
+    * **
+
+--------------------------------------------------
+
+--- CHUNK 42 ---
+TEXT: ffect on the performance of the repetition task. Input was also shown to have impact on almost every...
+ANALYSIS:
+## AI Signature Analysis Report 
+
+**1. PERPLEXITY ESTIMATE:** Medium
+
+**2. PREDICTABILITY SCORE:** 6/10
+
+**3. ANALYSIS:**  The text exhibits some characteristics suggestive of AI generation:
+
+* **Repetitive Sentence Structure:** The sentences tend to follow a similar structure, starting with "The effect of..." or "In sum...". This can be a common trait in AI-generated text due to its reliance on patterns and structures learned from training data.
+* **Lack of Fluidity:** While grammatically correct, the writing lacks natural flow and conversational tone. There's a sense of detachment and formality that might not be typical of human writing in this context.
+* **Abrupt Ending
+
+--------------------------------------------------
+

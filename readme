@@ -1,0 +1,8 @@
+This AI detector uses perplexity score to calculate if the text was AI generated or not. Gemma model is used to make sure
+it is able to detect Gemini-generated structures. This model is run locally through Ollama and requires pulling gemma2.
+
+First, the chunks were of 1500 sizes (250-300 words). However, the analysis per chunk was very generic and did not
+contribute to de facto text detection. Therefore, chunk size was reduced to 700 characters (100 words), to imitate the
+average paragraph size of the text. Additionally, perplexity score (low/medium/hich) and predictability score (1-10) were
+requested for each chunk to obtain a more precise assessment of the text.Analysis must be done paragraph by paragraph,
+as sentence flow is one of the characteristics of Gemini generated text.
