@@ -1,9 +1,7 @@
 import ollama
-import math
 import os
-import math
 import json
-import requests
+
 
 OLLAMA_url = "http://localhost:11434/api/generate"
 model_name = "gemma3:4b-it-qat"
@@ -37,9 +35,10 @@ def analyze_chunk(chunk_text):
     }
 
     try:
-        result = requests.post(OLLAMA_url, json=payload)
-        result.raise_for_status() #safety line to make sure it is actually working
-        return result.json().get("response", "Error: No response from model.")
+        result = ollama.generate(model=payload["model"], prompt=payload["prompt"])
+        return result.get("response", "Error: No response from model.")
+    except ollama.ResponseError as e:
+        return f"Ollama API error: {e.error} (status {e.status_code})"
     except Exception as e:
         return f"Error communicating with Ollama: {str(e)}"
 
