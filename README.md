@@ -1,23 +1,25 @@
 # AI Text Detector
 
 ## Description
-This AI detector uses perplexity score to calculate if the text was AI generated or not. Gemma model is used to make sure
-it is able to detect Gemini-generated structures. This model is run locally through Ollama and requires pulling gemma3:4b.
+This AI detector stems from a need to ensure no traces of AI-generated text are found in academic texts. Given that 
+papers in preparation are privacy-sensitive, this programs ensures that files can be evaluated for AI-generated text 
+without submitting them to currently available online programs. It uses perplexity score to calculate if the text was 
+AI-generated or not. Gemma model is used to make sure it is able to detect Gemini-generated structures, nowadays widely 
+used by academics. This model is run entirely locally through Ollama. 
 
-First, the chunks were of 1500 sizes (250-300 words). However, the analysis per chunk was very generic and did not
-contribute to de facto text detection. Therefore, chunk size was reduced to 700 characters (100 words), to imitate the
-average paragraph size of the text. Additionally, perplexity score (low/medium/hich) and predictability score (1-10) were
-requested for each chunk to obtain a more precise assessment of the text.Analysis must be done paragraph by paragraph,
+To optimise the analysis, text is analysed by chunks of 700 characters (100 words), imitating the
+average paragraph size of academic texts. Additionally, perplexity score (low/medium/hich) and predictability score 
+(1-10) are requested for each chunk to obtain a more precise assessment of the text.Analysis must be done paragraph by paragraph,
 as sentence flow is one of the characteristics of Gemini generated text.
 
 Gemma 2 model was not sufficient at recognition of AI-generated text, therefore, the model was updated to Gemma 3 (4B),
-(gemma3:4b) and the quantization aware trained version fo the model (gemma3:4b-it-qat)
+(`gemma3:4b`) and the quantization aware trained version fo the model (`gemma3:4b-it-qat`)
 
 The input files must be .txt files. Report is generated as .txt file within the same project. 
 ## Requirements
 - Python 3.8+
 - [Ollama](https://ollama.com) running locally
-- Model: `gemma3:4b` pulled in Ollama
+- Model: `gemma3:4b` or `gemma3:4b-it-qat` pulled in Ollama
 
 ## Installation
 pip install -r requirements.txt
@@ -49,7 +51,17 @@ Generates a `.txt` report with per-chunk analysis including:
   ANALYSIS: Brief reasoning.
 4. Writes a full report to the output `.txt` file
 
+## Files Structure
+- `AI_detector_Gemma3.py` - main program, run this to launch the app (Gemma3:4b)
+- `AI_detector_Gemma3qat.py` - variant using the QAT (Quantization-Aware Training) version of Gemma3
+- `AI.txt` - file with an example short AI-generated text (for testing)
+- `HumanAcademic.txt` - file with an example of an academic text written by human (for testing)
+- `CJAL.txt` - authentic paper where human and AI generated text is mixed (for testing)
+- `reportXX.txt` - detection reports generated for each XX file
+- `requirements.txt` — Python dependencies
+- `README.md` — this file
+
 ## Notes
 - Chunk size is set to **700 characters** for optimal model performance
 - Ollama must be running locally 
-- `LABEL_0` = AI-generated, `LABEL_1` = Human-written
+
