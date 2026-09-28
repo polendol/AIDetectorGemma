@@ -1,0 +1,41 @@
+# Training and testing
+HumanAcademic.txt
+reportAI.txt
+reportHuman.txt
+CJAL.txt
+AI.txt
+AI_detector_Gemma3.py
+
+
+# Local Python environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editor config
+.idea/
+.vscode/
+
+# Git
+.git/
+.gitignore
+
+# Secrets
+.env
+.env.local
+
+# Logs and system files
+*.log
+.DS_Store
+Thumbs.db
+
+# Dockerfiles
+Dockerfile
+.dockerignore

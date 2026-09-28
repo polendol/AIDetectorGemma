@@ -1,0 +1,42 @@
+services:
+  ollama:
+    image: ollama/ollama:latest
+    volumes:
+      - ollama_models:/root/.ollama
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    deploy:                      # remove this block if you have no NVIDIA GPU
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+  ollama-pull:
+    image: ollama/ollama:latest
+    environment:
+      OLLAMA_HOST: http://ollama:11434
+    entrypoint: ["ollama", "pull", "gemma3:4b-it-qat"]
+    depends_on:
+      ollama:
+        condition: service_healthy
+    restart: "no"
+
+  app:
+    build: .
+    environment:
+      OLLAMA_HOST: http://ollama:11434
+    volumes:
+      - ./data:/data
+    depends_on:
+      ollama-pull:
+        condition: service_completed_successfully
+    stdin_open: true
+    tty: true
+
+volumes:
+  ollama_models:
