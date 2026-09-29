@@ -42,42 +42,52 @@ def analyze_chunk(chunk_text):
 
 
 def main():
-
+    while True:
     #the user personalizes the input file and the report name file
-    file_in = input("Introduce the name of your file: ")
-    file_out = input("Introduce the name of your report file: ")
-    input_file = str(file_in + ".txt")
-    output_file = str(file_out + ".txt")
+        file_in = input("Introduce the name of your file: ")
+        file_out = input("Introduce the name of your report file: ")
+        input_file = str(file_in + ".txt")
+        output_file = str(file_out + ".txt")
 
-    try:
-        with open(input_file, "r", encoding="utf-8") as f:
-            content = f.read()
-    except FileNotFoundError:
-        print(f"Error: {input_file} not found. Please create it first.")
-        return
+        try:
+            with open(input_file, "r", encoding="utf-8") as f:
+                content = f.read()
+        except FileNotFoundError:
+            print(f"Error: {input_file} not found. Please create it first.")
+            return
 
-    # Chunks splitting
-    chunks = [content[i:i + chunk_size] for i in range(0, len(content), chunk_size)]
+        # Chunks splitting
+        chunks = [content[i:i + chunk_size] for i in range(0, len(content), chunk_size)]
 
-    #Visualize that the program is running
-    print(f"Analysing {len(chunks)} chunks using {model_name}...")
+        #Visualize that the program is running
+        print(f"Analysing {len(chunks)} chunks using {model_name}...")
 
-    #report creation
-    with open(output_file, "w", encoding="utf-8") as out:
-        out.write("AI DETECTION REPORT\n")
-        out.write(f"Model used: {model_name}\n")
-        out.write(f"Total Chunks: {len(chunks)}\n\n")
+        #report creation
+        with open(output_file, "w", encoding="utf-8") as out:
+            out.write("AI DETECTION REPORT\n")
+            out.write(f"Model used: {model_name}\n")
+            out.write(f"Total Chunks: {len(chunks)}\n\n")
 
-        for i, chunk in enumerate(chunks):
-            print(f"Analyzing chunk {i + 1}/{len(chunks)}...")
-            analysis = analyze_chunk(chunk)
+            for i, chunk in enumerate(chunks):
+                print(f"Analyzing chunk {i + 1}/{len(chunks)}...")
+                analysis = analyze_chunk(chunk)
 
-            out.write(f"--- CHUNK {i + 1} ---\n")
-            out.write(f"TEXT: {chunk[:100].replace('\n', ' ')}...\n")
-            out.write(f"ANALYSIS:\n{analysis.strip()}\n\n")
-            out.write("*" * 50 + "\n\n")
+                out.write(f"--- CHUNK {i + 1} ---\n")
+                out.write(f"TEXT: {chunk[:100].replace('\n', ' ')}...\n")
+                out.write(f"ANALYSIS:\n{analysis.strip()}\n\n")
+                out.write("*" * 50 + "\n\n")
 
-    print(f"Analysis complete. Report saved to {output_file}")
+        print(f"Analysis complete. Report saved to {output_file}")
+
+        while True:
+            q = input("Do you want to continue? [Y/N] ")
+            if q.lower() == "y":
+                break  # break this loop and go back to the main loop
+            elif q.lower() == "n":
+                print("Exiting...")
+                return  # ends main
+            else:
+                print("Invalid input. Please try again.")
 
 
 if __name__ == '__main__':

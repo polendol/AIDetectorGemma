@@ -89,7 +89,7 @@ Generates a `.txt` report with per-chunk analysis including:
 - `AI_detector_Gemma3qat.py` - variant using the QAT (Quantization-Aware Training) version of Gemma3
 - `AI.txt` - file with an example short AI-generated text (for testing)
 - `HumanAcademic.txt` - file with an example of an academic text written by human (for testing)
-- `CJAL.txt` - authentic paper where human and AI generated text is mixed (for testing)
+- `CJAL.txt` - authentic paper where human and AI generated text is mixed (private for testing)
 - `reportXX.txt` - detection reports generated for each XX file
 - `requirements.txt` — Python dependencies
 - `README.md` — this file
