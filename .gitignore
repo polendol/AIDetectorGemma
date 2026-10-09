@@ -160,11 +160,32 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-# PyCharm
-#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#  and can be added to the global gitignore or merged into this file.  For a more nuclear
-#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+In .gitignore, model directories can be ignored using directory paths or wildcard patterns depending on how your project stores them.
+
+Common .gitignore Patterns for Model Directories
+Code snippet
+# Ignore specific model folders in the project root
+/models/
+/model_weights/
+/checkpoints/
+
+# Ignore Hugging Face / Transformer local cache directories
+.cache/huggingface/
+.cache/transformers/
+
+# Ignore model directories anywhere in subfolders
+**/models/
+**/checkpoints/
+
+# Ignore common large model file extensions across the entire repository
+*.bin
+*.onnx
+*.safetensors
+*.pt
+*.pth
+*.h5
+*.gguf
+*.ckpt
 #.idea/
 
 # Ruff stuff:
