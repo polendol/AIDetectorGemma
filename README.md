@@ -87,6 +87,9 @@ Generates a `.txt` report with per-chunk analysis including:
 
 - ## License & Attributions
 
+- ### Repository License
+This project is licensed under the [MIT License](LICENSE) — see the LICENSE file for details.
+
 ### Model & Software Attributions
 * **Model:** Utilizes [Google Gemma 3](https://ai.google.dev/gemma) (`gemma3:4b` and `gemma3:4b-it-qat`). Usage of Gemma model weights is subject to the [Google Gemma Terms of Use](https://ai.google.dev/gemma/terms) and [Prohibited Use Policy](https://ai.google.dev/gemma/prohibited_use_policy).
 * **Inference Engine:** Powered by [Ollama](https://ollama.com) (MIT License).
