@@ -22,8 +22,8 @@ The input files must be .txt files. Report is generated as .txt file within the 
 ### Requirements
 1. **Docker:** Installed and running (Docker Desktop on Windows/macOS or Docker Engine on Linux).
 2. **Docker Compose:** Included by default with Docker Desktop, or available via `docker-compose-plugin`.
-3. **Hardware:** Minimum 8 GB RAM recommended. At least 5 GB of free disk space for the DeBERTa-v3 model weights and base image layers.
-4. **Network:** Internet access on the first run, to download the model from Hugging Face.
+3. Hardware: Minimum 8 GB RAM recommended. At least 6 GB of free disk space for Ollama base images and Gemma 3 weights.
+4. Network: Internet access on first run/setup to pull models via Ollama.
 
 ### How it works
 1. **Web interface:** The container runs a Gradio web app on port 7860. You upload a `.txt` file in your browser and download the report from the same page. No folders need to be created or mounted.
@@ -77,13 +77,17 @@ Generates a `.txt` report with per-chunk analysis including:
 - `AI_detector_Gemma3.py` - main program, run this to launch the app (Gemma3:4b)
 - `AI_detector_Gemma3qat.py` - variant using the QAT (Quantization-Aware Training) version of Gemma3
 - `AI.txt` - file with an example short AI-generated text (for testing)
-- `HumanAcademic.txt` - file with an example of an academic text written by human (for testing)
-- `CJAL.txt` - authentic paper where human and AI generated text is mixed (private for testing)
 - `reportXX.txt` - detection reports generated for each XX file
 - `requirements.txt` — Python dependencies
 - `README.md` — this file
 
 ## Notes
 - Chunk size is set to **700 characters** for optimal model performance
-- Ollama must be running locally 
+- Ollama must be running locally
+
+- ## License & Attributions
+
+### Model & Software Attributions
+* **Model:** Utilizes [Google Gemma 3](https://ai.google.dev/gemma) (`gemma3:4b` and `gemma3:4b-it-qat`). Usage of Gemma model weights is subject to the [Google Gemma Terms of Use](https://ai.google.dev/gemma/terms) and [Prohibited Use Policy](https://ai.google.dev/gemma/prohibited_use_policy).
+* **Inference Engine:** Powered by [Ollama](https://ollama.com) (MIT License).
 
