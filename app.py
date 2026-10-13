@@ -7,7 +7,7 @@ import ollama
 # Locally this is http://localhost:11434. In Docker Compose it is set to http://ollama:11434.
 OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://localhost:11434")
 MODEL_NAME = os.getenv("MODEL_NAME", "gemma3:4b-it-qat")
-CHUNK_SIZE = 700  # characters per chunk (about 250-300 words)
+CHUNK_SIZE = 700  # characters per chunk (about 100-120 words)
 
 client = ollama.Client(host=OLLAMA_HOST)
 
