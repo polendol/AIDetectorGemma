@@ -32,7 +32,7 @@ Instead of a trained classifier, this tool asks a **local language model** (Gemm
 - 📐 **Paragraph-sized chunks:** 700-character slices (roughly 100–120 words) that imitate an average academic paragraph.
 - 🧾 **Rich per-chunk report:** perplexity estimate, predictability score, examples of suspicious sentences and a brief reasoning.
 - 🌐 **Web app (Gradio):** upload, progress bar, report preview and one-click download.
-- ⌨️ **Command-line scripts:** one for `gemma3:4b` and one for the quantization-aware-trained variant.
+- ⌨️ **Command-line script:** an interactive version for the terminal.
 - 📥 **Automatic model download:** the web app pulls the model the first time it is needed.
 - 🚦 **One analysis at a time:** requests are queued so the local model is never overloaded.
 - 🛡️ **Clear errors:** friendly messages for missing or empty files and for an unreachable Ollama server.
@@ -43,7 +43,7 @@ Instead of a trained classifier, this tool asks a **local language model** (Gemm
 | | Area | What this project shows |
 |:---|---|---|
 | 🧠 | **LLM engineering** | Structured prompt design, low temperature (0.1) for consistent output and a capped response length per chunk |
-| 🔬 | **Iterative model selection** | Gemma 2 was not good enough at recognising AI-generated text, so the project moved to Gemma 3 (4B) and its quantization-aware-trained build |
+| 🔬 | **Iterative model selection** | Gemma 2 was not good enough at recognising AI-generated text, so the project moved to Gemma 3 (4B, quantization-aware trained) |
 | 🔒 | **Privacy by design** | Fully local inference; no document is sent to a third-party API |
 | 🧩 | **Architecture** | Gradio app talking to Ollama over HTTP, configurable through environment variables (`OLLAMA_HOST`, `MODEL_NAME`) |
 | 📦 | **Packaging** | Compose stack with a health check and `depends_on` ordering, a named volume for model weights and a non-root app container |
@@ -57,7 +57,7 @@ Instead of a trained classifier, this tool asks a **local language model** (Gemm
 |---|---|---|
 | 🐍 **Python** | 3.10+ | Runtime (required by current Gradio) |
 | 🦙 **Ollama** | Latest | Local LLM runtime; must be running (default address `localhost`, port `11434`) |
-| 🧠 **Model** | `gemma3:4b-it-qat` (default) or `gemma3:4b` | Downloaded automatically on the first analysis, or in advance with `ollama pull` |
+| 🧠 **Model** | `gemma3:4b-it-qat` | Downloaded automatically on the first analysis, or in advance with `ollama pull` |
 | 🔌 **ollama** (Python) | ≥ 0.4.0 | Client library for the Ollama API |
 | 🎛️ **gradio** | ≥ 5.0 | Web interface |
 | 🧮 **RAM** | 8 GB recommended | Running the 4B model |
@@ -124,8 +124,7 @@ Compose starts Ollama first, waits until it is healthy and then starts the web a
 ### ⌨️ Command line
 
 ```bash
-python AI_detector_Gemma3.py          # gemma3:4b
-python AI_detector_Gemma3qat.py       # quantization-aware-trained variant
+python AI_detector_Gemma3qat.py
 ```
 
 The script asks for the name of the input `.txt` file and the name of the report to generate. The report is saved as a `.txt` file in the project.
@@ -135,11 +134,14 @@ The script asks for the name of the input `.txt` file and the name of the report
 | Variable | Default | Description |
 |---|---|---|
 | `OLLAMA_HOST` | `http://localhost:11434` | Address of the Ollama server (Docker Compose sets `http://ollama:11434`) |
-| `MODEL_NAME` | `gemma3:4b-it-qat` | Model used for the analysis, for example `gemma3:4b` |
+| `MODEL_NAME` | `gemma3:4b-it-qat` | Ollama model used for the analysis |
 
-```bash
-MODEL_NAME=gemma3:4b python app.py        # Linux / macOS
-set MODEL_NAME=gemma3:4b && python app.py # Windows (cmd)
+The default is the tested configuration. Other Ollama models can be used, but report quality and format may differ.
+
+```text
+MODEL_NAME=<model-name> python app.py      # Linux / macOS
+set MODEL_NAME=<model-name>                # Windows (cmd), then:
+python app.py
 ```
 
 > [!CAUTION]
@@ -206,7 +208,7 @@ REPORT:
 
 ## 🧠 Model and Limitations
 
-**Model:** [Gemma 3](https://ai.google.dev/gemma) (4B parameters), run locally through [Ollama](https://ollama.com). The default is `gemma3:4b-it-qat`, a quantization-aware-trained build with a smaller memory footprint; `gemma3:4b` is the alternative. **No model weights are stored in this repository or in the Docker images.**
+**Model:** [Gemma 3](https://ai.google.dev/gemma) (4B parameters), run locally through [Ollama](https://ollama.com). The model is `gemma3:4b-it-qat`, a quantization-aware-trained build with a smaller memory footprint. **No model weights are stored in this repository or in the Docker images.**
 
 | | Design notes |
 |:---|---|
@@ -241,8 +243,7 @@ Other known limits:
 ```text
 .
 ├── app.py                      # Gradio web app
-├── AI_detector_Gemma3.py       # Command-line version (gemma3:4b)
-├── AI_detector_Gemma3qat.py    # Command-line version (QAT variant)
+├── AI_detector_Gemma3qat.py    # Command-line version
 ├── requirements.txt            # Python dependencies
 ├── AI.txt                      # Short sample AI-generated text for quick testing
 ├── Dockerfile                  # python:3.12-slim, non-root user (web app)
@@ -272,7 +273,7 @@ Other known limits:
 
 ## ⚖️ License
 
-Released under the **[MIT License](LICENSE)**. Copyright (c) 2026 polendol
+Released under the **[MIT License](LICENSE)**. Copyright (c) 2026 Paulina Olender.
 
 The MIT License covers **only this project's own code and documentation**. Third-party models and libraries are not redistributed here and keep their own terms.
 
@@ -282,7 +283,7 @@ The MIT License covers **only this project's own code and documentation**. Third
 
 | Component | Role | License | Notes |
 |---|---|---|---|
-| [Gemma 3](https://ai.google.dev/gemma) (`gemma3:4b-it-qat`, `gemma3:4b`) | Language model | ⚠️ **[Gemma Terms of Use](https://ai.google.dev/gemma/terms)** and **[Prohibited Use Policy](https://ai.google.dev/gemma/prohibited_use_policy)**, a custom license and not an open-source one (terms last modified 1 Apr 2026, checked 13 Oct 2026) | Not included in this repository or in any image. Each user downloads the model through Ollama and is bound by these terms. |
+| [Gemma 3](https://ai.google.dev/gemma) (`gemma3:4b-it-qat`) | Language model | ⚠️ **[Gemma Terms of Use](https://ai.google.dev/gemma/terms)** and **[Prohibited Use Policy](https://ai.google.dev/gemma/prohibited_use_policy)**, a custom license and not an open-source one (terms last modified 1 Apr 2026, checked 13 Oct 2026) | Not included in this repository or in any image. Each user downloads the model through Ollama and is bound by these terms. |
 | [Ollama](https://github.com/ollama/ollama) | Local LLM runtime | MIT | Also distributed as the `ollama/ollama` Docker image |
 | [ollama-python](https://github.com/ollama/ollama-python) | Python client | MIT | |
 | [Gradio](https://github.com/gradio-app/gradio) | Web interface | Apache 2.0 | |
@@ -307,4 +308,3 @@ If you build on the underlying model, please cite:
 **`Paulina Olender`** — NLP / Machine Learning
 
 Feedback, issues and suggestions are welcome. If this tool is useful to you, a ⭐ is appreciated.
-
