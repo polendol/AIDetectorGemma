@@ -14,8 +14,7 @@
 |---|---|---|---|
 | Runs on your machine through Ollama | A local Gemma 3 model reviews every paragraph-sized chunk | Web app and terminal scripts | Docker Compose with app + Ollama |
 
-<!-- Add a screenshot of the web interface here, e.g. <img src="demo.png" alt="AI Signature Detector web interface" width="800"> -->
-
+<img src="demo2.png" alt="AI Signature Detector web interface" width="800">
 ---
 
 ## 💡 Overview
